@@ -16,4 +16,6 @@ add_subdirectory(internals)
 add_subdirectory(platform)
 add_subdirectory(functions)
 
-add_library(pdc_library ${PDC_HEADER_FILES} ${PDC_SRC_FILES})
+include_directories(${PDC_PLATFORM_INCLUDE_PATH})
+
+add_library(pdc_library ${PDC_HEADER_FILES} ${PDC_SRC_FILES} ${PDC_PLATFORM_SRC_FILES} ${PDC_PLATFORM_HEADER_FILES})
