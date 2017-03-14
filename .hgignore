@@ -12,3 +12,5 @@ syntax: glob
 *~
 *.sublime-workspace
 html/*/*.html
+.idea/
+cmake-build-debug/
