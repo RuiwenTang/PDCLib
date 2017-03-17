@@ -93,7 +93,7 @@ char * setlocale( int category, const char * locale ) _PDCLIB_nothrow;
 */
 struct lconv * localeconv( void ) _PDCLIB_nothrow;
 
-// #if _PDCLIB_POSIX_MIN(2008)
+#if _PDCLIB_POSIX_MIN(2008)
 #define LC_COLLATE_MASK  (1 << LC_COLLATE)
 #define LC_CTYPE_MASK    (1 << LC_CTYPE)
 #define LC_MONETARY_MASK (1 << LC_MONETARY)
@@ -132,7 +132,7 @@ locale_t duplocale( locale_t loc );
 
 /* Frees the passed locale object */
 void freelocale( locale_t loc );
-// #endif
+#endif
 
 #endif
 
