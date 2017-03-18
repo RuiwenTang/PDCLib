@@ -303,6 +303,7 @@
 #define _PDCLIB_CXX_MAX(max)     _PDCLIB_CXX_MINMAX(0, max)
 #define _PDCLIB_XOPEN_MAX(max) _PDCLIB_XOPEN_MINMAX(0, max)
 #define _PDCLIB_POSIX_MAX(max) _PDCLIB_POSIX_MINMAX(0, max)
+
 #if defined(_PDCLIB_EXTENSIONS) || defined(_PDCLIB_BUILD)
     #define _PDCLIB_C_MINMAX(min, max) 1
     #define _PDCLIB_CXX_MINMAX(min, max) 1
