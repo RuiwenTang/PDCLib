@@ -13,5 +13,7 @@ syntax: glob
 *.DS_Store
 *.sublime-workspace
 html/*/*.html
+*.git
+.gitignore
 .idea/
 cmake-build-debug/
