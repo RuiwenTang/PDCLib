@@ -9,6 +9,7 @@ set(PDC_HEADER_FILES ${PDC_HEADER_FILES}
             ${CMAKE_CURRENT_SOURCE_DIR}/iso646.h
             ${CMAKE_CURRENT_SOURCE_DIR}/limits.h
             ${CMAKE_CURRENT_SOURCE_DIR}/locale.h
+            ${CMAKE_CURRENT_SOURCE_DIR}/stdalign.h
             ${CMAKE_CURRENT_SOURCE_DIR}/stdarg.h
             ${CMAKE_CURRENT_SOURCE_DIR}/stdbool.h
             ${CMAKE_CURRENT_SOURCE_DIR}/stddef.h
